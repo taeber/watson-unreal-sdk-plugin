@@ -4,6 +4,8 @@
 #include "Voice.h"
 #include "Interfaces/VoiceCapture.h"
 #include "Runtime/Engine/Public/Tickable.h"
+#include "ObjectMacros.h"
+#include "Object.h"
 #include "Microphone.generated.h"
 
 UCLASS()

@@ -8,7 +8,7 @@ UMicrophone::UMicrophone()
     uint32 AvailableVoiceData;
     if (VoiceCapture->GetCaptureState(AvailableVoiceData) == EVoiceCaptureState::UnInitialized)
     {
-        VoiceCapture->Init("", 16000, 1);
+        VoiceCapture->Init(16000, 1);
     }
     VoiceCaptureBuffer.SetNumUninitialized(10000);
 	VoiceCaptureSize = 0;

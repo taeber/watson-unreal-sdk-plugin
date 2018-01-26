@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class WatsonSdk : ModuleRules
 {
-	public WatsonSdk(ReadOnlyTargetRules Target) : base(Target)
+	public WatsonSdk(TargetInfo Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
