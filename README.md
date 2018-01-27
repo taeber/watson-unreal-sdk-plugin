@@ -4,7 +4,7 @@
 Ensure that you have the following prerequisites:
 
 * An IBM Cloud account. If you don't have one, [sign up](https://console.bluemix.net/registration/).
-* Unreal Engine 4.18. 
+* Unreal Engine 4.15. 
 
 ## Setup
 1. If it doesn't exist already, create <code>Plugins/</code> folder in your project's directory
